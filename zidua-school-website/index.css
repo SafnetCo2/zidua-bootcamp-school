@@ -1,0 +1,311 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  background-color: green;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  width: 100%;
+  padding: 2rem;
+  
+    
+}
+ul{
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  flex-wrap: wrap;
+
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+ul li a:hover{
+  color: rgb(156, 60, 60);
+}
+.nav button{
+  border: 2px solid rgb(40, 137, 40);
+  border-radius: 0 1.2rem 0 0;
+  padding: .5rem;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 1rem;
+  color: #fff;
+  
+}
+.nav button:hover{
+  background-color: goldenrod;
+  color: #000;
+  
+}
+.nav h5 span i{
+  font-size: 3rem;
+  color: goldenrod;
+}
+main{
+  padding: 3rem;
+
+  }
+  .container{
+    margin-left: 6rem;
+    color: #fff;
+  }
+.container span{
+color: goldenrod;
+
+}
+.container h1{
+  font-size: 2rem;
+  letter-spacing: 2px;
+  padding:  1rem;
+}
+.container p{
+  font-size: 1.2rem;
+  padding: 1rem;
+
+}
+.container button{
+  border-radius: 0 1.2rem 0 0;
+  padding: .8rem;
+  cursor: pointer;
+  background-color: goldenrod;
+  color: #fff;
+ 
+    }
+.section-1{
+   background-image: linear-gradient(to bottom, rgba(43, 201, 45, 0.52), rgba(37, 95, 23, 0.73)),url(assets/ashes-sitoula-UfEyDdXlRp8-unsplash.jpg); 
+   background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 180%;
+  padding: 3rem;
+  margin-top: -50px;
+  margin-left: -50px;
+  
+  background-color: green;
+  
+
+}
+.offer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+
+}
+
+.offer h2 span{
+  color: green;
+}
+.offer p{
+  font-size: 1.2rem;
+  max-width: 100%;
+  text-align: center; 
+  padding: 2rem;
+
+}
+.card{
+  display: flex;
+  gap: 2rem;
+}
+.card-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 1px 1px 1px 2px gray;
+  font-size: 1.2rem;
+  border-radius: .5rem;
+}
+.card-1 i{
+  font-size: 2rem;
+  padding: .5rem;
+}
+.card-1 h3{
+  padding: 1rem;
+  text-align: center;
+}
+.card-1 button{
+  text-align: center;
+  font-size: 3rem;
+}
+.card-3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+.card-y{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+ 
+  font-size: 1.2rem;
+  border-radius: .5rem
+}
+.card-1i{
+  font-size: 2rem;
+  padding: .5rem;
+}
+.card-1 h3{
+  padding: 1rem;
+  text-align: center;
+}
+.section-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  
+}
+.card-2{
+  text-align: center;
+  
+}
+.section-3 h2{
+  font-size: 1.8rem;
+}
+.section-3 h2 span{
+  color: green;
+  font-size: 1.8rem;
+}
+.section-3 .cards{
+  display: flex;
+  gap: 3rem;
+
+}
+.section-3 .num h1{
+  font-size: 3rem;
+  color: goldenrod;
+  padding:  1rem;
+  text-align: center;
+}
+.head-3{
+  text-align: center;
+}
+.head-3 h3{
+padding: .5rem;
+font-size: 1rem;
+}
+/* .head-3 p{
+  width: 50%;
+  margin-left: 3rem;
+} */
+.section-4{
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 0;
+  text-align: center;
+}
+.section-4 span{
+  color: green;
+}
+.icon-7{
+  margin:  2rem 0; 
+}
+.last-btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.last-btn button{
+  text-align: center;
+  font-size: 1rem;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0 2rem 0 0;
+  background-color: goldenrod;
+  cursor: pointer;
+  border: none;
+
+}
+.last-btn button:hover{
+  background-color: green;
+}
+.last-btn p{
+  font-size: 2rem;
+  padding: .5rem;
+}
+.last-btn span{
+  color: green;
+}
+.last-input{
+  display: flex;
+  
+}
+footer{
+  display: flex;
+  gap: 17rem;
+  background-color: green;
+}
+.card-4{
+  
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  line-height: 28px;
+  font-size: 1rem;
+  color: #fff;
+ 
+}
+footer   h5{
+  padding: .8rem;
+}
+footer h4{
+  padding: .8rem;
+}
+footer span{
+  color: goldenrod;
+  font-size: 4rem;
+  padding: 2rem;
+}
+.card-5{
+  display: flex;
+  flex-direction: column;
+  padding: .8rem;
+
+
+}
+.card-4 ul{
+  font-size: .8rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-between;
+  color: #fff;
+  list-style: none;
+  margin-top: 20px;
+  list-style: none;
+  margin-right: 20px;
+  font-size: 1rem ;
+
+}
+footer.icons a{
+  list-style: none;
+  justify-self: content;
+  font-size: 1rem;
+}
+
+
