@@ -11,16 +11,3 @@
 // 1. sum of numbers between 1 and 'n'
 // use for loop which is used to repeat a block of codes for specific number of times.
 //1 Write a prproogram that asks the user for a number n and prints the sum of the numbers 1 to n
-"use strict"
-
-const prompt = require("prompt-sync")({sigint: true})
-
-var sum = 0;
-
-const number= parseInt(prompt("Enter a number to find sum of 1 to n the number which has been entered by the user: "));
-
-for (var i=0; i <= number; i++)
-{
-  sum+=i;
-}
-console.log(`The sum of numbers from 0 to ${number}is ${sum}`);

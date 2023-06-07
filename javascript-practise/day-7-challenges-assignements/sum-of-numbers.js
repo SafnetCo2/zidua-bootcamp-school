@@ -15,6 +15,6 @@ const number = parseInt(prompt("Enter an interger: "));
  for(let i = 1; i<=number; i++){
     sum +=i;
  }
- console.log(`The sum of n numbers is ${sum}`)
+ console.log(`The sum of n to numbers ${number} is ${sum}`)
 
 
