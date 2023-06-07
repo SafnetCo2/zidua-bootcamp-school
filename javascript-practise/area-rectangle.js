@@ -10,8 +10,8 @@ const prompt = require("prompt-sync")({sigint: true});// require loads the progr
 //signit terminates the program in the terminal after it has been excuted
 let length = parseFloat(prompt("Enter the length of a rectangle: ")); 
 let  width = parseFloat(prompt("Enter the width of a rectangle:  "));
-let area= length*width;
-let perimeter= 2*(length+width)
-console.log(`The area of a rectangle is ${area}`);
-console.log(`The perimeter of a rectangle is ${perimeter}`);
+let area   = length*width;
+let perimeter = 2*(length+width)
+console.log(`The area and perimeter of a rectangle is ${area} and the perimeter is: ${perimeter}  `);
+
 

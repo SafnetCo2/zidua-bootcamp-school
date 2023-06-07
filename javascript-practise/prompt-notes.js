@@ -1,6 +1,7 @@
 //use strict mode
 //Eliminates some javascript silent errors by changing them to throw errors.
-//Fixes mistakes that make it difficult for JavaScript engines to perform optimizations: strict mode code can sometimes be made to run faster than identical code that's not strict mode.
+//Fixes mistakes that make it difficult for JavaScript engines 
+//to perform optimizations: strict mode code can sometimes be made to run faster than identical code that's not strict mode.
 "use strict"
 //require loads this funtion which prompt-sync
 //exports a this function using a variable ps
