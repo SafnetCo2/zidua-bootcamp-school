@@ -12,6 +12,6 @@ let length = parseFloat(prompt("Enter the length of a rectangle: "));
 let  width = parseFloat(prompt("Enter the width of a rectangle:  "));
 let area   = length*width;
 let perimeter = 2*(length+width)
-console.log(`The area and perimeter of a rectangle is ${area} and the perimeter is: ${perimeter}  `);
+console.log(`The area ${area} and perimeter  ${perimeter} of rectangle  `);
 
 
