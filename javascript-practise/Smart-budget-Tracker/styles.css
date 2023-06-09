@@ -3,10 +3,10 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
-    background-color: #276d27;
-    color: #fff;
+    /* background-color: #276d27; */
+    /* color: #fff; */
 }
-h1{
+h1, h2{
     font-size: 1.5rem;
     color: #FF0032;
     text-align: center;
@@ -24,3 +24,17 @@ h1{
 /* margin: 0 auto; */
     
 }
+.expenses{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+
+
+}
+
+th{
+margin: 0 auto;
+padding: 10px;
+gap: 2rem;
+
+} 

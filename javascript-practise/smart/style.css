@@ -1,0 +1,49 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.budget-tracker{
+    border-collapse: collapse;
+    min-width: 750px;
+
+}
+.budget-tracker th{
+text-align: center;
+padding: 10px 20px;
+border-bottom: 2px solid green;
+}
+.budget-tracker td{
+    padding: 5px;
+}
+.input,.delete{
+    height: 30px;
+    font-size: 13px;
+    padding: 0 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.input{
+    border: 1px solid green;
+    border-radius: 5px;
+    outline: none;
+
+
+}
+input:focus{
+    border-color: green;
+}
+.delete-entry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    cursor: pointer;
+    outline: none;
+}
+.delete:hover{
+    background-color: rgba(245, 101, 101, 0.1);
+}
+.controls, .summary{
+ text-align: right;
+}
