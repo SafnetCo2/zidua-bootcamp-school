@@ -1,0 +1,15 @@
+Title: "Smart Budget Tracker"
+Objective: Create a website that tracks a user's expenses and generates reports on their spending habits.
+Requirements:
+Users should be able to input different expenses with categories (e.g. food, transportation, entertainment, etc.)
+Users should be able to view their expenses and the total amount spent in each category
+Users should be able to view their overall spending and the total amount saved
+The program should provide a monthly spending report and an annual report
+The program should be able to suggest a budget for each category based on the user's expenses
+Skills required:
+Knowledge of HTML, CSS, & JavaScript
+Understanding of data structures
+Ability to use classes and objects in JavaScript
+Understanding of file operations (reading and writing to a file)
+Ability to use built-in libraries.
+This project will challenge you to apply your knowledge to real-world problems and help you learn how to structure a complex program while implementing various data structures and algorithms.
