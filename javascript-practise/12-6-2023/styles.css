@@ -1,0 +1,21 @@
+
+*{
+    text-align: center;
+    align-items: center;
+}
+
+#img{
+    
+    align-items: center;
+    background-image: url("assets/serjan-midili-sMYh2NynuK0-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 10px;
+    width: 20rem;
+    height: 100%;
+    margin: 0 auto;
+
+    /* border: 2px solid black; */
+      
+}

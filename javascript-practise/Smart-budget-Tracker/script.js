@@ -52,7 +52,7 @@ addBtn.addEventListener('click', function(){
     
     
         
-        const expense = expenses[expenses.length -1];
+        const expensess = expenses.(expense.length -1);
         categoryCell.textContent = expense.category;
         amountCell.textContent =expense.amount;
         dateCell.textContent =expense.date;
