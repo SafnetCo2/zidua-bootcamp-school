@@ -1,6 +1,6 @@
 const para1 = document.getElementById('para');
 const cardBtn = document.getElementById('btn');
-const reset= document.getElementById('clear')
+
 const imageCard =document.getElementById('img');
 
 
