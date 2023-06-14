@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Roboto&display=swap');
+
+*{
+    margin-top:20px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #f7e7e7;
+    font-size: 1.5rem;
+    overflow: hidden;
+
+
+}
+body{
+     background: green; 
+}
+h1{
+    
+    font-size: 1.5rem;
+
+}
+.container{
+    border: 2px solid#000;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+header{
+    
+    padding: 20px;
+}
+header > h1{
+    font-family: 'Mntserrat', sans-serif;
+    
+}
+.score-board{
+    margin: 20px auto;
+    border: 3px solid red;
+    width: 10rem;
+    border-radius: .5rem;
+    padding: 15px 20px;
+    position: relative;
+}
+.badge{
+    background: red;
+    font-size: 1.5rem;
+    padding: 10px;
+    padding: 3px 10px;
+
+}
+#user-label{
+    position: absolute;
+    
+    top: 8px;
+    left: -20px;
+    background-color: black;
+
+}
+#comp-label{
+    position: absolute;
+    top: 8px;
+    right: -20px;
+    background-color: black;
+
+
+}
+.choices{
+    margin: 50px 0;
+}
+.choice{
+    border: 4px solid#000;
+    border-radius: 0%;
+    padding: 10px;
+    margin: 0 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.choice{
+    cursor: pointer;
+}
+.choice:hover{
+    background-color: red;
+}
+#action-message{
+    font-size: .8rem;
+}
