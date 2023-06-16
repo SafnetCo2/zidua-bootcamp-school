@@ -13,7 +13,7 @@ const farrowright =document.getElementById('s');
 //add eventlistener 
 
 function getComputerChoice(){
-    const choices = ['r','p','r'];
+    const choices = ['r','p','s'];
     const randomNumber=Math.floor(Math.random() * 3);
     return choices[randomNumber];
 }
@@ -21,10 +21,10 @@ function getComputerChoice(){
 
 
 function win(userChoice,computerChoice){
-userScore++;
-userScore_span.innerHTML=userScore;
-compScore_span.innerHTML=compScore;
-result.innerHTML = userChoice + 'beats' + computerChoice + 'You Win';
+    userScore++;
+    userScore_span.innerHTML=userScore;
+    compScore_span.innerHTML=compScore;
+    result.innerHTML = userChoice + 'beats' + computerChoice + 'You Win';
 }
 
 function lose(){

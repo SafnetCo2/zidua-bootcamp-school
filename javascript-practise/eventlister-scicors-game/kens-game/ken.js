@@ -7,7 +7,7 @@ window.onload =function(){
     for(let i =0; i<3; i++){
         let choice =document.createElement('img');
         choice.id =choices[1];
-        choices.src =choices[i] + '.jpg';
+        choices.src =choices[i] + 'assests/paper.jpg';
         choice.addEventListener('click', selectChoice);
         document.getElementById('choices').append(choice);
     }
@@ -15,11 +15,11 @@ window.onload =function(){
 
 function selectChoice(){
     you = this.id;
-    document.getElementById('your-choice').src=you + '.jng';
+    document.getElementById('your-choice').src=you + 'assests/rock.jpg';
     
     //random for opponet
     opponent = choices[Math.floor(Math.random()*3)];
-    document.getElementById('opponent-choice').src =opponent + '.jng';
+    document.getElementById('opponent-choice').src =opponent + 'assests/scssors.jpg';
     //check the winneryou 
     if(you == opponent){
         yourScore +=1;

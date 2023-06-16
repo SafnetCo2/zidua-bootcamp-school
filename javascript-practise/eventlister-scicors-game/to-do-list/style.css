@@ -108,3 +108,10 @@ body {
   }
   
   
+
+  th{
+    margin: 0 auto;
+    padding: 10px;
+    gap: 2rem;
+    
+    } 
