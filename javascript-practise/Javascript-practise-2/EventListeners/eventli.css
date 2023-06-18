@@ -1,0 +1,36 @@
+*{
+    margin-top: 10px;
+
+
+
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.grandparent{
+    border: 2px solid black;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+
+}
+.parent{
+    background-color: green;
+    width: 130px;
+    height: 130px;
+
+}
+.child{
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+
+}

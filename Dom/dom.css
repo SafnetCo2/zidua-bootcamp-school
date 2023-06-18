@@ -1,0 +1,48 @@
+*{
+    text-align: center;
+}
+h1{
+    background-color: green;
+    font-size: 2rem;
+    padding: 10px;
+}
+.title{
+    padding: 10px;
+    font-size: 2rem;
+}
+.btn,.btn-dark{
+    background-color: #000;
+    color: #fff;
+    font-size: 1.5rem;
+    width: 10%;
+}
+.btn-dark:hover{
+    background-color: red;
+
+}
+input{
+    font-size: 2rem;
+    width: 20%;
+}
+ul{
+    border: 1px 2solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+
+
+}
+ul li{
+    list-style: none;
+    /* background: rgb(169, 144, 144); */
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    text-align: left;
+
+
+}
+
