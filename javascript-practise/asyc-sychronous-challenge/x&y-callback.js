@@ -32,7 +32,7 @@ let multiply= function(a,b){
 }; 
 
 
-let calc = function(num1,num2,callback){
+let calcT = function(num1,num2,callback){
 
     return callback(num1,num2);
 
