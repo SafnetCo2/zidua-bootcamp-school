@@ -34,23 +34,24 @@ function getResult(){
     if(computerChoice === userChoice){
         result = 'draw';
     }
-    if(computerChoice === 'rock' && userChoice ==='paper'){
+    else if(computerChoice === 'rock' && userChoice ==='paper'){
         result = 'lost';
     }
-    if(computerChoice === 'rock' && userChoice === 'scissors'){
+    else if(computerChoice === 'rock' && userChoice === 'scissors'){
         result = 'win';
     }
-    if(computerChoice === 'paper' && userChoice === 'rock'){
+    else if(computerChoice === 'paper' && userChoice === 'rock'){
         result = 'lose';
     }
 
     
-    if(computerChoice === 'scissors' && userChoice === 'paper'){
+    else if(computerChoice === 'scissors' && userChoice === 'paper'){
         result = 'lose';
     
     }
-    if(computerChoice === 'scissors' && userChoice === 'rock'){
+    else(computerChoice === 'scissors' && userChoice === 'rock'){
         result = 'win!';
     }
-resultDisplay.innerHTML =result;
+ resultDisplay.innerHTML =result;
 }
+getResult();
