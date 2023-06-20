@@ -1,0 +1,28 @@
+[{
+    
+        "firstName": "Joseph",
+        "lastName": "Smith",
+        "gender": "Male",
+        "Age": 80,
+        
+        "email": ".....@example.com"
+    },
+    {
+
+        "firstName": "Jimmy",
+        "lastName": "Andy",
+        "gender": "Female",
+        "Age": 40,
+
+        "email": "....@example.com"
+    },
+        {
+
+        "firstName": "Filyiy",
+        "lastName": "whay",
+        "gender": "Female",
+        "Age": 30,
+
+        "email": "....@example.com"
+    }
+]

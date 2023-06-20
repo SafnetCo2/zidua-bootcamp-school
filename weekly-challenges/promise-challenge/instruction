@@ -1,0 +1,11 @@
+About Lesson
+Write a function fetchUserData() that fetches user data from an API endpoint and returns a Promise. The API endpoint returns data in the following format:
+
+{
+  "name": "John Doe",
+  "age": 30,
+  "email": "johndoe@example.com"
+}
+Then, write a function getUserData() that uses fetchUserData() to fetch user data and logs the user’s name, age, and email to the console using async/await syntax.
+
+Finally, write a function getUserAge() that uses fetchUserData() to fetch user data and returns the user’s age as a Promise. Then, write a function getAgeAndLog() that uses getUserAge() and logs the user’s age to the console using async/await syntax.
