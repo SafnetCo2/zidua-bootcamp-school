@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Payson Utah Temple",
+        "State":"Utah",
+        "Country": "USA",
+        "Year": 1970
+    },
+        {
+        "name": "Boise Idaho Temple",
+        "State":"Utah",
+        "Country": "USA",
+        "Year": 1980
+    },
+        {
+        "name": "Spokane Washington Temple",
+        "State":"Washington DC",
+        "Country": "USA",
+        "Year": 1985
+    },
+        {
+        "name": "Oakland Califonia Temple",
+        "State":"California",
+        "Country": "USA",
+        "Year": 1970
+        
+    },
+        {
+        "name": "Manti Utah Temple",
+        "State":"Utah",
+        "Country": "USA",
+        "Year": 1978
+    },
+        {
+        "name": "Logan  Temple",
+        "State":"Utah",
+        "Country": "USA",
+        "Year": 1970,
+        "url":
+    },
+        {
+        "name": "Oakland Califonia Temple",
+        "State":"California",
+        "Country": "USA",
+        "Year": 1970,
+        "url":
+    },
+        {
+        "name": "St George Utah Temple",
+        "State":"Utah",
+        "Country": "USA",
+        "Year": 1998,
+        "url":
+    },
+        {
+        "name": "Portland Utah Temple",
+        "State":"Utah",
+        "Country": "USA",
+        "Year": 1995,
+        "url":
+    },
+        {
+        "name": "Mount Timpanogos Utah Temple",
+        "State":"Utah",
+        "Country": "USA",
+        "Year": 1970
+    },
+    {
+        "name": "Oquirrh Mountain Utah",
+        "State":"Utah",
+        "Country": "USA",
+        "Year": 1970
+    }
+]

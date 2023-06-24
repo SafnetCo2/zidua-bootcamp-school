@@ -1,0 +1,36 @@
+//Quiz
+// Area and Perimeter of a Rectangle
+// The program should:
+
+// – Prompt the user to enter the length and width of the rectangle.
+// – Calculate the area and perimeter of the rectangle using the length and width entered by the user.
+
+"use strict";
+const prompt = require("prompt-sync")({sigint: true});// require loads the program with the function prompt
+//signit terminates the program in the terminal after it has been excuted
+let length = parseFloat(prompt("Enter the length of a rectangle: ")); 
+let  width = parseFloat(prompt("Enter the width of a rectangle:  "));
+let area   = length*width;
+let perimeter = 2*(length+width);
+console.log(`The area ${area} and perimeter  ${perimeter} of rectangle  `);
+
+// Area and Perimeter of a Rectangle
+// The program should:
+// – Prompt the user to enter the length and width of the rectangle.
+// – Calculate the area and perimeter of the rectangle using the length and width entered by the user.
+
+
+
+
+
+// 11:55
+// Cosing Challenge 2:
+// Sum of numbers between 1 and ‘n’
+// Write a program that takes a positive integer n as input and outputs the sum of all numbers between 1 and n that are divisible by 3 or 5 (or both).
+// For example, if n is 15, the program should output 45, since the numbers between 1 and 15 that are divisible by 3 or 5 are: 3, 5, 6, 9, and 10, and their sum is 45.
+// Here are some additional requirements and hints:
+// 1. Use a loop to iterate over all the numbers between 1 and n.
+// 2. Use an if statement and the modulus operator (%) to check if a number is divisible by 3 or 5.
+// 3. Use a variable to keep track of the running sum, and update it on each iteration of the loop.
+// 4. You can assume that the input n will be a positive integer.
+// Good luck!

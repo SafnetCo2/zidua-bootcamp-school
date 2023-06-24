@@ -13,3 +13,12 @@
 //     }
 let numbers = [1,3,4,5,6]
 console.log(numbers[numbers.length-1])
+
+
+// let sum = 0
+// for (i = 1; i <= 100; i++) {
+//     if (i % 2 == 0) {
+//         sum = sum + i;
+//     }
+// }
+// console.log(sum);

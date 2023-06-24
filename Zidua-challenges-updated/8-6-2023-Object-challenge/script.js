@@ -24,6 +24,10 @@ const filterUsers =users.filter(user=>{
     return user.newyork;
 });
 console.log(filterUsers);
+
+
+
+/* */
 // const filterUsers =users.filter(user=>{
 //     return user.age;
 // });

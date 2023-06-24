@@ -6,7 +6,7 @@ const imageCard =document.getElementById('img');
 
 
 cardBtn.addEventListener('click', function(){
-    para1.style.color='white';
+    para1.style.color='#000';
     
     
 document.getElementById('para').innerHTML='Hello World! this my new car red in color';
