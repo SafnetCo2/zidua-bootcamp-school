@@ -50,7 +50,7 @@ class Wizard extends Player {
 
     }
     speak(phrase) {
-        console.log(`${phrase}cast a spell!!!   `);
+        console.log(`${phrase} Cast a spell on Archer !!!   `);
     }
 }
 class Archer extends Player {
