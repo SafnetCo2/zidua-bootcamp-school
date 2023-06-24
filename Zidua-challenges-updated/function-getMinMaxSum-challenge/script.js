@@ -12,6 +12,8 @@ function getMinMaxSum(arr) {
 }
 
 getMinMaxSum([1, 2, 3, 4, 5, 6]);
+//output
+//20,15
 
 
 
