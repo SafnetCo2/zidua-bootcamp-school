@@ -11,17 +11,20 @@ The function should return the final sum. */
 
 // const newArray = arr.filter(a => a % 2 === 0);
 // console.log(newArray);
-const arr= [1, 2, 4, 8];
+//  arr= [1, 2, 4, 8];
 //const numbers = [1, 2, 4, 8];
 // const sum = numbers.reduce((num1, num2) => {
 //     //console.log(num1, num2);
 //     return num1 + num2;
 // });
 // console.log(sum);
+function manipulateArray(arr) {
 
-const newArray = arr
-    .filter(a => a % 2 === 0)
-    .map(a => a * a)//square of a number
-    .reduce((a, b) => a + b);
-console.log(newArray); 
-    
+    return arr*3;
+}
+arr = new Array(1, 2, 4, 8);
+    const new_Array = arr
+        .filter(a => a % 2 === 0)
+        .map(a => a * a)//square of a number
+        .reduce((a, b) => a + b);
+console.log(new_Array);
