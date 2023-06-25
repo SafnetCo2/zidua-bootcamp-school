@@ -2,7 +2,7 @@
 function callBack(value) {
     console.log(value);
 }
-
+callBack();
 function sumAsync(num1, num2) {
     const total = num1 + num2;
     return (total);
