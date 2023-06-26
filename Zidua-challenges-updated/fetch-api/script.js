@@ -26,7 +26,7 @@ function getUserAge() {
         .then((response) => response.json())
         .then((data) => {
             console.log(data);
-            return data.firstName; // Return the user age
+            return data.age; // Return the user age
         });
 }
 
@@ -34,8 +34,8 @@ function getUserAge() {
 async function getAgeAndLog() {
     // Call getUserAge() and log user age to console using async/await syntax
     try {
-        let firstName = await getUserAge();
-        console.log(firstName);
+        let age= await getUserAge();
+        console.log(age);
     } catch (error) {
         console.log(error);
     }
