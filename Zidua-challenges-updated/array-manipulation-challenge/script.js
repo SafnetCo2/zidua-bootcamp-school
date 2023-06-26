@@ -1,4 +1,19 @@
-/*Challenge:
+arr = [1, 2, 3, 4, 5, 6, 7];
+function manipulateArray(arr) {
+    const new_Array = arr
+        .filter(a => a % 2 === 0)
+        .map(a => a * a)//square of a number
+        .reduce((a, b) => a + b);
+    return new_Array;
+}
+console.log(manipulateArray(arr));
+
+
+
+
+
+
+/*instructipns:
 Array Manipulation with Functional Programming
 Write a function manipulateArray(arr) that takes an array of integers arr as an input and performs the following operations on it using functional programming concepts:
 
@@ -7,7 +22,7 @@ Use filter to keep only values that are greater than 10.
 Use reduce to find the sum of the remaining values
 The function should return the final sum. */
 
- const arr = [1, 2, 3, 4, 5, 6, 7];
+//   arr = [1, 2, 3, 4, 5, 6, 7];
 
 // const newArray = arr.filter(a => a % 2 === 0);
 // console.log(newArray);
@@ -18,13 +33,3 @@ The function should return the final sum. */
 //     return num1 + num2;
 // });
 // console.log(sum);
-function manipulateArray(arr) {
-
-    return arr;
-}
-// arr = new Array(1, 2, 4, 8);
-    const new_Array = arr
-        .filter(a => a % 2 === 0)
-        .map(a => a * a)//square of a number
-        .reduce((a, b) => a + b);
-console.log(new_Array);
