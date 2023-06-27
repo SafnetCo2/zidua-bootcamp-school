@@ -11,6 +11,7 @@ main {
   background-color: green;
   display: flex;
   flex-direction: column;
+  border-radius: 0.5rem;
   color: #fff;
   font-size: 2rem;
 }
@@ -21,20 +22,24 @@ h1 {
 }
 h2 {
   text-align: center;
+  font-size: 1rem;
 }
 input,
 button {
   padding: 0.5rem;
+
+  border-radius: 0.5rem;
 }
 
 button {
   margin: 0.5rem;
 }
-
 .delete {
   width: fit-content;
 }
-
+button:hover {
+  background-color: rgb(231, 26, 26);
+}
 .input {
   display: flex;
   gap: 1rem;
