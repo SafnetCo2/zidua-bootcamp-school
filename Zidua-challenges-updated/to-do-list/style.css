@@ -3,42 +3,64 @@
   margin: 0 auto;
   box-sizing: border-box;
 }
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.5rem;
-  text-align: center;
+
+main {
+  margin: 1rem auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 2rem;
 }
 h1 {
   font-size: 1.5rem;
-  margin-top: 2rem;
-  padding: 10px;
-}
-.form-control {
-  display: flex;
-  justify-content: center;
-}
-.form-control input {
-  border: 0px;
-  background-color: rgb(214, 218, 214);
-  border-radius: 0.5rem;
-  font-size: 1.5rem;
-  width: 20%;
-  outline: 0;
-  width: 50%;
-  box-shadow: 0;
-  border: 1px solid red;
   text-align: center;
-  padding: 20px;
-}
-
-.container-to-do {
-  border: 1px solid red;
-  width: 50%;
-  height: 100vh;
   margin-top: 5rem;
-  border-radius: 0.5rem;
+}
+h2 {
+  text-align: center;
+}
+input,
+button {
+  padding: 0.5rem;
 }
 
-.form-control button {
-  background-color: green;
+button {
+  margin: 0.5rem;
+}
+
+.delete {
+  width: fit-content;
+}
+
+.input {
+  display: flex;
+  gap: 1rem;
+}
+
+.list {
+  padding: 0.5rem;
+}
+
+ul {
+  margin: 1rem;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 32.5em) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  main {
+    width: 320px;
+  }
 }
