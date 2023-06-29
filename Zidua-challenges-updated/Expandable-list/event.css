@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+
+  justify-content: center;
+
+  background-color: red;
+}
+.book-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3rem;
+  background-color: green;
+}
+span.name,
+.delete {
+  gap: 5rem;
+}
