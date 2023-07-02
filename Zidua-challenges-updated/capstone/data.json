@@ -1,0 +1,72 @@
+[
+    {
+        "name": "House 1",
+        "city":"Nairobi",
+        "Country": "Kenya",
+        "Year": 1970
+    },
+        {
+        "name": "House2",
+        "City":"Nairobi",
+        "Country": "Kenya",
+        "Year": 1980
+    },
+        {
+        "name": "House3",
+        "City":"Washington DC",
+        "Country": "Kenya",
+        "Year": 1985
+    },
+        {
+        "name": "House4",
+        "City":"California",
+        "Country": "Kenya",
+        "Year": 1970
+        
+    },
+        {
+        "name": "House5",
+        "City":"Utah",
+        "Country": "Kenya",
+        "Year": 1978
+    },
+        {
+        "name": "House6",
+        "City":"Utah",
+        "Country": "Kenya",
+        "Year": 1970,
+        "url":
+    },
+        {
+        "name": "House7",
+        "City":"California",
+        "Country": "Kenya",
+        "Year": 1970,
+        "url":
+    },
+        {
+        "name": "House8",
+        "State":"Utah",
+        "Country": "Kenya",
+        "Year": 1998
+        
+    },
+        {
+        "name": "House9",
+        "State":"Utah",
+        "Country": "Kenya",
+        "Year": 1995        
+    },
+        {
+        "name": "House10",
+        "State":"Utah",
+        "Country": "Kenya",
+        "Year": 1970
+    },
+    {
+        "name": "House11",
+        "State":"Utah",
+        "Country": "Kenya",
+        "Year": 1970
+    }
+]

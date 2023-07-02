@@ -25,3 +25,4 @@ function displayProphets(item) {
     let h4 = document.createElement('h4');
     let img = document.createElement('img');
 
+}
